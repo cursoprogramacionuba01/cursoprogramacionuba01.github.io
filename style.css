@@ -1,0 +1,15 @@
+#foto-cavani{
+    height: 320px;
+    position: relative;
+    animation-name: moverIzquierda;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes moverIzquierda{
+    from {
+        height:100px;
+    }
+    to {
+        height:500px;
+    }
+}
